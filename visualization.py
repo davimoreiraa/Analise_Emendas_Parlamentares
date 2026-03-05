@@ -96,7 +96,7 @@ def top_10_eficientes(emendas):
 
     estados_eficientes = estados_eficientes.head(10) # coletando somente os 10 estados mais eficientes
 
-    estados_eficientes.plot(kind='barh', figsize=(18, 7), color=["#3b55e4","#e03a35"])
+    estados_eficientes.plot(kind='barh', figsize=(18, 7), color=["#3b55e4","#2c7fb8"])
     plt.title('Estados mais Eficientes')
     plt.xlabel("Eficiência (%)")
     plt.ylabel('')
